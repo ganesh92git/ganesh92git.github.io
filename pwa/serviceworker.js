@@ -1,8 +1,6 @@
-const staticFiles = [
+const staticAssets = [
     './',
-    './style.css',
-    './app.js',
-    './index.html'
+    './app.js'
 ];
 
 self.addEventListener('install', async event => {
